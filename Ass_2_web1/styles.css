@@ -83,4 +83,40 @@ body {
     margin-bottom: 5px;
   }
   
+  /* Code Blocks */
+  pre {
+    background: #333;
+    color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: "Courier New", monospace;
+    color: #f8c471;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: #bbb;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
   

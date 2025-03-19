@@ -76,4 +76,55 @@ console.log(person.greet());
       </code></pre>
     </section>
 
-    
+    <section id="arrays">
+      <h2>Arrays</h2>
+      <p>Arrays are used to store multiple values in a single variable. They are ordered lists, with values accessed by their index.</p>
+      <pre><code>
+let fruits = ["apple", "banana", "cherry"];
+console.log(fruits[1]); // Output: banana
+      </code></pre>
+    </section>
+
+    <section id="events">
+      <h2>Events</h2>
+      <p>Events allow you to trigger actions in response to user interactions, like clicks, form submissions, and key presses. Event listeners are added using JavaScript.</p>
+      <pre><code>
+document.getElementById("myButton").addEventListener("click", function() {
+  alert("Button clicked!");
+});
+      </code></pre>
+    </section>
+
+    <section id="error-handling">
+      <h2>Error Handling</h2>
+      <p>JavaScript provides ways to handle errors gracefully using <code>try</code>, <code>catch</code>, and <code>finally</code> blocks.</p>
+      <pre><code>
+try {
+  let result = riskyFunction();
+} catch (error) {
+  console.log("An error occurred: " + error.message);
+} finally {
+  console.log("This will run regardless of an error.");
+}
+      </code></pre>
+    </section>
+
+    <section id="asynchronous">
+      <h2>Asynchronous JavaScript</h2>
+      <p>Asynchronous JavaScript allows you to perform tasks in the background without blocking the main thread. This can be achieved using callbacks, promises, or async/await syntax.</p>
+      <pre><code>
+async function fetchData() {
+  let response = await fetch('https://api.example.com/data');
+  let data = await response.json();
+  console.log(data);
+}
+fetchData();
+      </code></pre>
+    </section>
+  </main>
+   
+  <footer>
+    <p>JavaScript Documentation - 2025</p>
+  </footer>
+</body>
+</html>
