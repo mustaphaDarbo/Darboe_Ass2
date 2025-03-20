@@ -62,7 +62,21 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
   }
-  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-image {
+    width: 150px; /* Adjust as needed */
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f8c471; /* Add a border around the image */
+}
   /* Sections */
   section {
     margin-bottom: 30px;
